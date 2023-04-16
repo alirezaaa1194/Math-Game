@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link
+      rel="shortcut icon"
+      href="./Images/shortcut image.png"
+    />
+    <title>Math Game</title>
+  </head>
+  <body>
+    <div class="container2">
+      <h2>سطح بازی را انتخاب کنید</h2>
+      <button class="input_button1" onclick="randomRange(1)">یک رقمی</button>
+      <button class="input_button2" onclick="randomRange(2)">دو رقمی</button>
+      <button class="input_button3" onclick="randomRange(3)">سه رقمی</button>
+    </div>
+    <div class="container">
+      <div class="header">
+        <div class="timbox_embox_errorbox">
+          <p class="time_label">1زمان: 0</p>
+          <h2 class="gameover_text">Game over</h2>
+          <p class="em_label">امتیاز: 0</p>
+        </div>
+        <h3 class="number_box">
+          <span class="rnd_num1"></span>
+          <span class="str str1"></span>
+          <span class="rnd_num2"></span>
+          <span class="str str2">=</span>
+          <input type="text" readonly class="rnd_num3" />
+        </h3>
+      </div>
+      <div class="btn_box">
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="dontknow_button">نمیدونم</button>
+        <button class="btn">0</button>
+        <button class="backspace"><i class="fas fa-backspace"></i></button>
+      </div>
+      <div class="footer">
+        <button class="reload_btn">شروع مجدد</button>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
